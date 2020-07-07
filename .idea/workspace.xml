@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69dfec2a-75d5-45b6-8dc1-f61d566c2000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/PropertiesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/conf/ConfigurationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/conf/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/redis/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/redis/JedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/resources/default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/VehicleWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/controller/AllVehicleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/controller/IndustryCategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/controller/RealTimeStatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/IIndustryCategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/IRealTimeStatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/IVehicleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/impl/IndustryCategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/impl/RealTimeStatServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/impl/VehicleServerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/test-eacharts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-industry-category.js" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-industry-category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-real-time-stat.js" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-real-time-stat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +127,7 @@
       <workItem from="1593698612331" duration="1987000" />
       <workItem from="1594037307963" duration="1737000" />
       <workItem from="1594046090328" duration="5951000" />
-      <workItem from="1594102616098" duration="3708000" />
+      <workItem from="1594102616098" duration="4026000" />
     </task>
     <task id="LOCAL-00001" summary="IDEA第一次整合测试">
       <created>1593700169003</created>
@@ -166,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594052120122</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="做好 redis 与 springboots 的连接；&#10;完成部分页面及后台实现。">
+      <created>1594106768862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594106768862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +159,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IDEA第一次整合测试" />
     <MESSAGE value="新增 spark streaming 接收 kafka 数据；&#10;新增web资源。" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增 spark streaming 接收 kafka 数据；&#10;新增web资源。" />
+    <MESSAGE value="做好 redis 与 springboots 的连接；&#10;完成部分页面及后台实现。" />
+    <option name="LAST_COMMIT_MESSAGE" value="做好 redis 与 springboots 的连接；&#10;完成部分页面及后台实现。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="83" key="#Inspections" timestamp="1594047313287">
@@ -190,10 +175,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593698835364" />
-    <state x="107" y="0" key="CommitChangelistDialog2" timestamp="1594052115901">
+    <state x="107" y="0" key="CommitChangelistDialog2" timestamp="1594106764293">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="107" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594052115901" />
+    <state x="107" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594106764293" />
     <state x="802" y="207" key="FileChooserDialogImpl" timestamp="1593699850581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -202,38 +187,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="850" y="540" width="347" height="219" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1593700309971" />
-    <state width="1493" height="14" key="GridCell.Tab.0.bottom" timestamp="1594106356000">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1594106819430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="14" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594106356000" />
-    <state width="1493" height="14" key="GridCell.Tab.0.center" timestamp="1594106356000">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594106819430" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1594106819430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="14" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594106356000" />
-    <state width="1493" height="14" key="GridCell.Tab.0.left" timestamp="1594106356000">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594106819430" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1594106819430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="14" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594106356000" />
-    <state width="1493" height="14" key="GridCell.Tab.0.right" timestamp="1594106356000">
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594106819430" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1594106819430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="14" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594106356000" />
-    <state width="1493" height="14" key="GridCell.Tab.1.bottom" timestamp="1594106356001">
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594106819430" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1594106819431">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="14" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594106356001" />
-    <state width="1493" height="14" key="GridCell.Tab.1.center" timestamp="1594106356001">
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594106819431" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center" timestamp="1594106819430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="14" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594106356001" />
-    <state width="1493" height="14" key="GridCell.Tab.1.left" timestamp="1594106356001">
+    <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594106819430" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left" timestamp="1594106819430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="14" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594106356001" />
-    <state width="1493" height="14" key="GridCell.Tab.1.right" timestamp="1594106356001">
+    <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594106819430" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right" timestamp="1594106819430">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="14" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594106356001" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594106819430" />
     <state x="269" y="65" key="Maven.ArtifactSearchDialog" timestamp="1594047632875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -242,10 +227,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="382" y="97" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594045799100" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1594052132532">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1594106773132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594052132532" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594106773132" />
     <state x="430" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1594102636815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
