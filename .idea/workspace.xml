@@ -1,89 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69dfec2a-75d5-45b6-8dc1-f61d566c2000" name="Default Changelist" comment="新增 spark streaming 接收 kafka 数据；&#10;新增web资源。">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mx4j_mx4j_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_iharder_base64_2_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_tests_1_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_0_8_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_51.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scalap_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-calc/src/main/java/com/offcn/bigdata/vehicle/entity/VehicleLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-calc/src/main/java/com/offcn/bigdata/vehicle/jobs/RealTimeVehicleStatJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-calc/target/classes/com/offcn/bigdata/vehicle/entity/VehicleLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-calc/target/classes/com/offcn/bigdata/vehicle/jobs/RealTimeVehicleStatJob.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/css/map.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/images/info-img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/images/info-img-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/images/info-img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/images/info-img-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/images/map_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/china.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-all-vehicles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-charging-time-peak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-industry-category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-month-mileage-top.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-real-time-stat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-vehicle-category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-vehicle-part-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-warn-charge-top.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-warn-vehicle-top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_4_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_9_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_9_9_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_4_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_kvstore_2_11_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_10_2_11_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_8_2_11_2_4_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_asm6_shaded_4_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_asm5_shaded_4_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_2_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_2_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_2_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_scalap_2_11_3_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" beforeDir="false" />
+    <list default="true" id="69dfec2a-75d5-45b6-8dc1-f61d566c2000" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/conf/ConfigurationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/conf/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/redis/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/java/com/offcn/bigdata/vehicle/common/redis/JedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-common/src/main/resources/default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/VehicleWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/controller/AllVehicleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/controller/IndustryCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/controller/RealTimeStatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/IIndustryCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/IRealTimeStatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/IVehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/impl/IndustryCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/impl/RealTimeStatServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/java/com/offcn/bigdata/vehicle/service/impl/VehicleServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/test-eacharts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-calc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-calc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle-calc/vehicle-calc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-calc/vehicle-calc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-industry-category.js" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-industry-category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-real-time-stat.js" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle-web/src/main/resources/static/js/setData/setData-real-time-stat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +70,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vehicle-web/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vehicle-web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -142,14 +84,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\IdeaProject\vehicle-project\vehicle-web" />
+      <recent name="D:\JetBrains\IdeaProject\vehicle-project\vehicle-common" />
       <recent name="D:\JetBrains\IdeaProject\vehicle-project\vehicle-web\src\main" />
       <recent name="D:\JetBrains\IdeaProject\vehicle-project\vehicle-web\src\main\resources" />
       <recent name="D:\JetBrains\IdeaProject\vehicle-project" />
-      <recent name="D:\JetBrains\IdeaProject\vehicle-project\vehicle-calc" />
-      <recent name="D:\JetBrains\IdeaProject\vehicle-project\vehicle-calc\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.VehicleWebApplication">
     <configuration name="RealTimeVehicleStatJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.offcn.bigdata.vehicle.jobs.RealTimeVehicleStatJob" />
       <module name="vehicle-calc" />
@@ -163,8 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VehicleWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="vehicle-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.offcn.bigdata.vehicle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.offcn.bigdata.vehicle.VehicleWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.VehicleWebApplication" />
         <item itemvalue="Application.RealTimeVehicleStatJob" />
       </list>
     </recent_temporary>
@@ -193,7 +149,8 @@
       <updated>1593698608034</updated>
       <workItem from="1593698612331" duration="1987000" />
       <workItem from="1594037307963" duration="1737000" />
-      <workItem from="1594046090328" duration="5672000" />
+      <workItem from="1594046090328" duration="5951000" />
+      <workItem from="1594102616098" duration="3708000" />
     </task>
     <task id="LOCAL-00001" summary="IDEA第一次整合测试">
       <created>1593700169003</created>
@@ -202,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593700169003</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增 spark streaming 接收 kafka 数据；&#10;新增web资源。">
+      <created>1594052120122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594052120122</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,14 +182,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="368" y="83" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1594047313287" />
+    <state x="361" y="70" key="#Notifications" timestamp="1594052287772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594052287772" />
     <state x="361" y="70" key="#Project_Structure" timestamp="1593698835364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593698835364" />
-    <state x="107" y="0" key="CommitChangelistDialog2" timestamp="1594051998952">
+    <state x="107" y="0" key="CommitChangelistDialog2" timestamp="1594052115901">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="107" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594051998952" />
+    <state x="107" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594052115901" />
     <state x="802" y="207" key="FileChooserDialogImpl" timestamp="1593699850581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -234,22 +202,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="850" y="540" width="347" height="219" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1593700309971" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1594051998978">
+    <state width="1493" height="14" key="GridCell.Tab.0.bottom" timestamp="1594106356000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594051998978" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1594051998978">
+    <state width="1493" height="14" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594106356000" />
+    <state width="1493" height="14" key="GridCell.Tab.0.center" timestamp="1594106356000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594051998978" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1594051998978">
+    <state width="1493" height="14" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594106356000" />
+    <state width="1493" height="14" key="GridCell.Tab.0.left" timestamp="1594106356000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594051998978" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1594051998978">
+    <state width="1493" height="14" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594106356000" />
+    <state width="1493" height="14" key="GridCell.Tab.0.right" timestamp="1594106356000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594051998978" />
+    <state width="1493" height="14" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594106356000" />
+    <state width="1493" height="14" key="GridCell.Tab.1.bottom" timestamp="1594106356001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="14" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594106356001" />
+    <state width="1493" height="14" key="GridCell.Tab.1.center" timestamp="1594106356001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="14" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594106356001" />
+    <state width="1493" height="14" key="GridCell.Tab.1.left" timestamp="1594106356001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="14" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594106356001" />
+    <state width="1493" height="14" key="GridCell.Tab.1.right" timestamp="1594106356001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="14" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594106356001" />
     <state x="269" y="65" key="Maven.ArtifactSearchDialog" timestamp="1594047632875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -258,9 +242,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="382" y="97" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594045799100" />
-    <state x="430" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1594046090412">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1594052132532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="430" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594046090412" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594052132532" />
+    <state x="430" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1594102636815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594102636815" />
   </component>
 </project>

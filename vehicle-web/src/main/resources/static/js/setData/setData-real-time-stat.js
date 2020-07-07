@@ -20,12 +20,12 @@ function loadRealTimeStat() {
         var online_div = document.getElementById("id_online_vehicle");//获得id为sum的document对象
         var active_div = document.getElementById("id_active_vehicle");//获得id为sum的document对象
         var active_percent_div = document.getElementById("id_active_percent");//获得id为sum的document对象
-        var json = JSON.parse(event.data);
+        //后台传输过来的数据格式是一个json
+        var json = JSON.parse(event.data);//转化为json对象
         total_div.innerText = numFormat(json.total);
         online_div.innerText = numFormat(json.online);
         active_div.innerText = numFormat(json.active);
         active_percent_div.innerText = json.activeRate;
-
     }
 
     function onOpen(event) {

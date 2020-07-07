@@ -32,6 +32,7 @@ function loadIndustryCategory() {
         var data = dataArr.data
         //['行业一', '行业二', '行业三']
         var iCategory = dataArr.category
+
         option = {
             backgroundColor: 'rgba(0,0,0,0)',
             tooltip: {
@@ -112,6 +113,7 @@ function loadIndustryCategory() {
 
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
+        //可以拖动修改窗口的大小
         window.addEventListener("resize",function(){
             myChart.resize();
         });
